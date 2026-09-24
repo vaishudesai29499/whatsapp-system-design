@@ -99,22 +99,6 @@ Presence and connection mappings are frequently read and updated and are well su
 ### Why asynchronous media processing?
 Large images/videos should not block the message path. Media can be uploaded to object storage and processed by background workers.
 
-## Interview Topics
-
-- WebSockets
-- Load balancing
-- Redis
-- Kafka/message queues
-- Database partitioning
-- Idempotency
-- Offline delivery
-- E2EE
-- Signal Protocol
-- Forward secrecy
-- Push notifications
-- Failure handling
-- Horizontal scaling
-
 ## Repository Structure
 
 ```text
