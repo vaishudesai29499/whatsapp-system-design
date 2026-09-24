@@ -68,15 +68,6 @@ Sender Device -- encrypted ciphertext --> Server -- encrypted ciphertext --> Rec
 
 The messaging server is designed to route and deliver ciphertext rather than needing the plaintext message.
 
-Signal Protocol concepts relevant to this design include:
-
-- X3DH/session establishment
-- Prekeys for asynchronous session establishment
-- Double Ratchet for evolving message keys
-- Authenticated encryption
-- Forward secrecy and related security properties
-
-This repository is a system-design/educational implementation. It is not a claim to reproduce WhatsApp's proprietary implementation.
 
 ## Scalability
 
